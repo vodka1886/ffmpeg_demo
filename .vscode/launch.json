@@ -10,7 +10,11 @@
             "request": "launch",
             "program": "${file}",
             "args": [
-                "${workspaceFolder}/data/pic"
+                "${workspaceFolder}/data/pic",
+                "-o",
+                "${workspaceFolder}/data/pic_output",
+                "-q",
+                "100"
             ],
             "console": "integratedTerminal"
         },
